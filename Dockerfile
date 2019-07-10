@@ -1,6 +1,6 @@
-FROM jenkins:2.7.2
+FROM jenkins/jenkins:lts
 
-MAINTAINER Bryan Sazon and Arcy Teodoro 
+MAINTAINER THEOUS CREO
 
 ENV GERRIT_HOST_NAME gerrit
 ENV GERRIT_PORT 8080
